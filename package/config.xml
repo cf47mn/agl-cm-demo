@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="agl-cm-demo" version="0.1">
+  <name>AGL CM DEMO</name>
+  <icon src="icon.svg"/>
+  <content src="bin/agl-cm-demo" type="application/vnd.agl.native"/>
+  <description>AGL Container Manager Demo</description>
+  <author>Panasonic</author>
+  <license>APL 2.0</license>
+  <feature name="urn:AGL:widget:required-api">
+    <param name="windowmanager" value="ws"/>
+    <param name="homescreen" value="ws"/>
+  </feature>
+  <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::public:no-htdocs" value="required"/>
+    <param name="urn:AGL:permission::public:display" value="required" />
+  </feature>
+</widget>
+
+
